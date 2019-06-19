@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class BadStringUtils {
+public class BadStringUtils implements DigitUtil {
 
+    @Override
     public List<Character> getDigits(String word) {
         List<Character> result = new ArrayList<>();
 
