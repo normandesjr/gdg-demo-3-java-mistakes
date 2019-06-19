@@ -1,6 +1,6 @@
 package com.hibicode.restaurante.badcommand;
 
-public class MalPassado implements Forno {
+public class MalPassado implements PontoCarne {
 
     @Override
     public void assar() {

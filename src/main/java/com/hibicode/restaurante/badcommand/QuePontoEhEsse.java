@@ -1,6 +1,6 @@
 package com.hibicode.restaurante.badcommand;
 
-public class QuePontoEhEsse implements Forno {
+public class QuePontoEhEsse implements PontoCarne {
 
     @Override
     public void assar() {

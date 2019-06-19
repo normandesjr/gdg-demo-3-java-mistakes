@@ -1,6 +1,6 @@
 package com.hibicode.restaurante.goodcommand;
 
-public interface Forno {
+public interface PontoCarne {
 
     void assar();
 

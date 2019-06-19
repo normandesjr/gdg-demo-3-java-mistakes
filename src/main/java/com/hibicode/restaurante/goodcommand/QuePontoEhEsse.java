@@ -1,6 +1,6 @@
 package com.hibicode.restaurante.goodcommand;
 
-public class QuePontoEhEsse implements Forno {
+public class QuePontoEhEsse implements PontoCarne {
 
     @Override
     public void assar() {

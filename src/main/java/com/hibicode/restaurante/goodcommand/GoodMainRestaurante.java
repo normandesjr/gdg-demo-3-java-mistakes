@@ -16,7 +16,7 @@ public class GoodMainRestaurante {
         System.out.println("Qual o ponto da sua carne? [1] Mal passado; [2] Bem passado");
         int ponto = scanner.nextInt();
 
-        FornoFactory.prepararForno(ponto).assar();
+        PontoCarneFactory.preparar(ponto).assar();
     }
 
 }
